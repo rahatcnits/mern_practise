@@ -34,7 +34,5 @@ app.indefiniteLoop = function indefiniteLoop() {
   setInterval(app.printAQuote, app.config.timeBetweenQuotes);
 };
 
-// l n q r a m
-
 // Invoke the loop
 app.indefiniteLoop();
